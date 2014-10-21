@@ -122,4 +122,28 @@ footer li:hover {
 
 
 
+/*CSS about about us.html */
 
+.personal {
+    border: 2px solid #8d97ff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+#text-main {
+    font-size: 1.05em
+    font-family: sans-serif;
+}
+
+.text {
+    color: #424ce5;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+/*CSS about quotes.html */
+.song {
+    text-align: center;
+}
