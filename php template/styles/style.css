@@ -64,7 +64,7 @@ a {
 
 main {
     background: #eee;
-    height: 450px;
+    height: inherit;
     padding: 0;
 }
 
