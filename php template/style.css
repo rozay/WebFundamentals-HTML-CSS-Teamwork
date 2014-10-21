@@ -1,11 +1,8 @@
 ﻿body {
+    background: #1D1D1D;
     width: 100%;
     margin: 0 auto;
-    background: #1D1D1D;
-
 }
-
-
 
 /*--- 1. Header---*/
 
@@ -63,7 +60,6 @@ a {
     transition: background .4s ease-in-out;
 }
 
-
 /*--- Main content ---*/
 
 main {
@@ -81,7 +77,6 @@ main {
 h1 {
     margin: 0;
 }
-
 
 /*--- Footer ---*/
 
