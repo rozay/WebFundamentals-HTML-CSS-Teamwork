@@ -3,11 +3,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Начало</title>
-    <link type="text/css" href="style.css" rel="stylesheet"/>
+    <link type="text/css" href="styles/style.css" rel="stylesheet"/>
 </head>
 <body>
 <header>
-    <?php include 'header.php'; ?>
+    <?php include 'templates/header.php'; ?>
 </header>
 <main>
     <div id="main-wrapper">
@@ -15,7 +15,7 @@
     </div>
 </main>
 <footer>
-    <?php include 'footer.php'; ?>
+    <?php include 'templates/footer.php'; ?>
 </footer>
 </body>
 </html>
