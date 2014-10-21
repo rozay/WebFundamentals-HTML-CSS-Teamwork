@@ -1,0 +1,49 @@
+.personal {
+    font-size: 25px;
+    border: 2px solid #8d97ff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 630px;
+    margin-left: 340px;
+}
+#text-main {
+    font-size: 1.05em
+    font-family: sans-serif;
+}
+
+#text-main .text {
+    color: #424ce5;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+strong {
+    color: #515dff;
+}
+
+.south-park {
+    width: 550px;
+    height: 270px;
+    padding: 10px 385px;
+}
+
+.deep-sky {
+    line-height: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#content hr {
+    border-bottom: 1px solid #4c48ff;
+}
+
+.deep-sky a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(9, 9, 129, 0.68);
+}
