@@ -65,6 +65,7 @@ header a {
 main {
     background: #eee;
     height: inherit;
+    min-height: 500px;
     padding: 0;
 }
 
