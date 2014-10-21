@@ -22,7 +22,7 @@ header {
 
 /*- 1.2. Navigation menu -*/
 
-a {
+header a {
     text-decoration: none;
     color: #fff;
 }
