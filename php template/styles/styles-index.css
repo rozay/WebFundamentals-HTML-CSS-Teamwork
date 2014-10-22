@@ -1,0 +1,30 @@
+/*Home page style*/
+#homeHeader,#homeSubheader{
+    text-align: center;
+    color: #333333;
+}
+.homeSection{
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+
+    border: 1px solid lightgray;
+}
+.homeParagraph{
+    margin-left: 25px;
+    text-align: left;
+}
+.homeImgSection{
+    width: 250px;
+    height: 250px;
+}
+.homeLinks{
+    color:#333333;
+    text-decoration:none;
+}
+.homeLinks:visited{
+    color:#333333;
+}

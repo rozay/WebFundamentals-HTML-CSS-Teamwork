@@ -2,6 +2,7 @@
     background: #1D1D1D;
     width: 100%;
     margin: 0 auto;
+    font-family: Verdana, Helvetica;
 }
 
 /*--- 1. Header---*/
@@ -65,7 +66,6 @@ header a {
 main {
     background: #eee;
     height: inherit;
-    min-height: 500px;
     padding: 0;
 }
 
