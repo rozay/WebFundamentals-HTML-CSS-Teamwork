@@ -38,7 +38,7 @@ strong {
     font-size: 20px;
 }
 
-#content hr {
+#main-wrapper hr {
     border-bottom: 1px solid #4c48ff;
 }
 
@@ -46,4 +46,10 @@ strong {
     text-decoration: none;
     font-weight: bold;
     color: rgba(9, 9, 129, 0.68);
+}
+
+.us {
+    text-align: center;
+    padding: 15px 0 25px 0;
+    font-size: 1.25em;
 }
