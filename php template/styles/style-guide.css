@@ -1,4 +1,4 @@
-section, article, img, div, svg {
+header, section, article, img, div, svg {
     //border: 2px solid black;
     box-sizing: border-box;
 }

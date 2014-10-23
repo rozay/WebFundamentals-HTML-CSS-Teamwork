@@ -32,9 +32,6 @@
                 </li>
             </ul>
 
-
-
-
             <div id="up-to-top" title="Нагоре">
                 <a href="#">
                     <svg width="60" height="60">

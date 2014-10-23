@@ -24,6 +24,7 @@ header {
 }
 
 #header-logo img{
+    float: left;
     max-width: 100%;
 }
 
