@@ -5,6 +5,8 @@
     <title>Начало</title>
     <link type="text/css" href="styles/style.css" rel="stylesheet"/>
     <link type="text/css" href="styles/styles-index.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
 </head>
 <body>
 <header>

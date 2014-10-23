@@ -2,9 +2,11 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Начало</title>
+    <title>Бисери</title>
     <link type="text/css" href="styles/style.css" rel="stylesheet"/>
     <link type="text/css" href="styles/styles-quotes.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/global.js"></script>
 </head>
 <body>
 <header>

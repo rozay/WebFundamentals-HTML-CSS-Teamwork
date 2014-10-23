@@ -1,0 +1,73 @@
+section, article, img, div, svg {
+    //border: 2px solid black;
+    box-sizing: border-box;
+}
+
+main {
+    overflow: auto;
+}
+
+main h2 {
+    font-size: 1em;
+    text-align: justify;
+}
+
+#navigation-guide {
+    width: 20%;
+    float: left;
+}
+
+#navigation-guide ul {
+    background: rgba(29, 29, 29, 0.8);
+    border-radius: 10px;
+    padding: 10%;
+    font-size: 1em;
+
+}
+
+section#navigation-guide a {
+    color: #ffffff;
+
+}
+
+
+
+#navigation-guide a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#navigation-guide a:hover {
+    color: #ff8c00;
+}
+
+#navigation-guide ul {
+    list-style: none;
+    border: 2px solid gray;
+    padding-left: 5%;
+}
+
+#guide {
+    width: 78%;
+    float: right;
+    margin-left: 2%
+}
+
+article div {
+    padding-left: 1%;
+    text-align: justify;
+}
+
+article {
+    overflow: auto;
+}
+
+article img{
+    width: 35%;
+    float: left;
+}
+
+article div{
+    width: 65%;
+    float: right;
+}

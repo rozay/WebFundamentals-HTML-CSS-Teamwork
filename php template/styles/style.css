@@ -3,6 +3,7 @@
     width: 100%;
     margin: 0 auto;
     font-family: Verdana, Helvetica;
+    font-size: 16px;
 }
 
 /*--- 1. Header---*/
@@ -17,8 +18,13 @@ header {
 /*- 1.1. Header logo -*/
 #header-logo {
     height: 270px;
-    width: 1170px;
+    width: auto;
     margin: 0 auto;
+    max-width: 1170px;
+}
+
+#header-logo img{
+    max-width: 100%;
 }
 
 /*- 1.2. Navigation menu -*/
@@ -28,8 +34,16 @@ header a {
     color: #fff;
 }
 
+#navigation-wrapper {
+    //height: 50px;
+    width: 100%;
+    //max-width: 1170px;
+    //margin: 0 auto;
+}
+
 #navigation {
     height: 50px;
+    width: 100%;
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -61,12 +75,25 @@ header a {
     transition: background .4s ease-in-out;
 }
 
+#up-to-top {
+    display: none;
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    box-sizing: border-box;
+}
+
+#up-to-top:hover {
+    opacity: 0.6;
+    transition: opacity .2s ease-in-out;
+}
+
 /*--- Main content ---*/
 
 main {
     background: #eee;
     height: inherit;
-    padding: 0;
+    padding: 1%;
 }
 
 #main-wrapper {
@@ -76,6 +103,10 @@ main {
 }
 
 h1 {
+    margin: 0;
+}
+
+h2, ul {
     margin: 0;
 }
 

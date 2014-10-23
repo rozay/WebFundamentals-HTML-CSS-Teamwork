@@ -2,8 +2,8 @@
     <div id="header-logo">
         <img src="resources/header.jpg" alt="background image"/>
     </div>
-    <div id="navigation">
-        <nav>
+    <div id="navigation-wrapper">
+        <nav id="navigation">
             <ul>
                 <li>
                     <a href="index.php">
@@ -17,7 +17,7 @@
                 </li>
                 <li>
                     <a href="jokes.php">
-                        <div>Вицове</div>
+                        <div>Бисери</div>
                     </a>
                 </li>
                 <li>
@@ -31,16 +31,21 @@
                     </a>
                 </li>
             </ul>
+
+
+
+
+            <div id="up-to-top" title="Нагоре">
+                <a href="#">
+                    <svg width="60" height="60">
+                            <circle id="svg_1" fill="#3f3f3f" stroke-width="3" r="30" cy="29.976243" cx="29.924915"/>
+                            <line y2="33.275212" x2="45.003294" y1="21.275212" x1="30.003294" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#ff8c00" id="bottomLine"/>
+                            <line y2="27.202401" x2="29.932969" y1="39.202401" x1="14.932969" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" id="topLine" stroke="#ff8c00"/>
+                            <line y2="39.242711" x2="44.994561" y1="27.242711" x1="29.994561" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#ff8c00" id="bottomLine"/>
+                            <line y2="21.200126" x2="29.890666" y1="33.200126" x1="14.890666" stroke-miterlimit="10" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#ff8c00" id="svg_2"/>
+                    </svg>
+                </a>
+            </div>
         </nav>
-<!--        <a href="#">-->
-<!--            <svg x="0px" y="0px" width="35px" height="25px" viewBox="0 0 35 25" enable-background="new 0 0 35 25" xml:space="preserve">-->
-<!--                <defs></defs>-->
-<!--                <line id="topLine" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="14.5" x2="17.5" y2="2.5"></line>-->
-<!--                <line id="bottomLine" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.5" y1="2.5" x2="32.5" y2="14.5"></line>-->
-<!---->
-<!--                <line id="topLine" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="22.5" x2="17.5" y2="10.5"></line>-->
-<!--                <line id="bottomLine" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.5" y1="10.5" x2="32.5" y2="22.5"></line>-->
-<!--            </svg>-->
-<!--        </a>-->
     </div>
 </div>
