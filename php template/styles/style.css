@@ -17,7 +17,7 @@ header {
 
 /*- 1.1. Header logo -*/
 #header-logo {
-    height: 270px;
+    //height: 270px;
     width: auto;
     margin: 0 auto;
     max-width: 1170px;
@@ -118,9 +118,10 @@ footer {
 }
 
 #footer-wrapper {
-    width: 1170px;
+    width: 100%;
     height: 130px;
     margin: 0 auto;
+    max-width: 1170px;
 }
 
 #footer-col-1, #footer-col-2 {
