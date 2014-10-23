@@ -35,14 +35,11 @@ header a {
 }
 
 #navigation-wrapper {
-    //height: 50px;
     width: 100%;
-    //max-width: 1170px;
-    //margin: 0 auto;
+    overflow: auto;
 }
 
 #navigation {
-    height: 50px;
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
