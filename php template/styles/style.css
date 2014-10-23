@@ -9,6 +9,7 @@
 /*--- 1. Header---*/
 
 header {
+    overflow: auto;
     background: #1D1D1D;
     margin: 0;
     padding: 0;
@@ -17,7 +18,6 @@ header {
 
 /*- 1.1. Header logo -*/
 #header-logo {
-    //height: 270px;
     width: auto;
     margin: 0 auto;
     max-width: 1170px;
@@ -38,6 +38,7 @@ header a {
 #navigation-wrapper {
     width: 100%;
     overflow: auto;
+    float: left;
 }
 
 #navigation {
@@ -91,7 +92,9 @@ header a {
 main {
     background: #eee;
     height: inherit;
-    padding: 1%;
+    padding: 1% 0;
+    width: 100%;
+    float: left;
 }
 
 #main-wrapper {
@@ -113,6 +116,8 @@ h2, ul {
 footer {
     background: #1D1D1D;
     color: #fff;
+    float: left;
+    width: 100%;
 }
 
 #footer-wrapper {
