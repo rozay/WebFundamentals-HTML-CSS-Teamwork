@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Галерия</title>
     <link type="text/css" href="styles/style.css" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery.js"></script>
