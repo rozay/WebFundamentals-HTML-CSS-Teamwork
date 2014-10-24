@@ -1,5 +1,6 @@
 /*Home page style*/
-#homeHeader,#homeSubheader{
+#homeHeader,#homeSubheader, #homePS{
+    font-weight: lighter;
     text-align: center;
     color: #333333;
 }
@@ -23,6 +24,11 @@
 }
 .homeLinks{
     color:#333333;
+    text-decoration:none;
+}
+.homeLinks:hover section{
+    background: lightgray;
+    color:#ffffff;
     text-decoration:none;
 }
 .homeLinks:visited{

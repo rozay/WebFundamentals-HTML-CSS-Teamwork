@@ -15,8 +15,9 @@
 </header>
 <main>
     <div id="main-wrapper">
-        <h1 id="homeHeader">Добре дошли в нашия сайт!</h1>
-    <h3 id="homeSubheader">Тук можете да откриете всякакви нелепици от ежедневието на програмиста. </h3>
+        <h1 id="homeHeader">Добре дошли в нашата паралелна Вселена!</h1>
+        <h3 id="homeSubheader"> Тук можете да откриете всякакви нелепици от ежедневието на програмиста </h3>
+        <h4 id="homePS">П.С. Ако не си от нашата Вселена е силно вероятно да не ни разбереш</h4>
 	
 	<a href="gallery.php" class="homeLinks">
 		<section class="homeSection">
