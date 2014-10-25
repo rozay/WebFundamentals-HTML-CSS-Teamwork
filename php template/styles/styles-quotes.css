@@ -2,31 +2,122 @@ body {
     margin-bottom: 10px;
 }
 
-.container {
-    font-family: helvetica, sans serif;
+main {
+    overflow: auto;
 }
-
-th {
-    font-size: 1.6em;
-    margin: 55px;
-}
-
-.song {
+main h1 {
+    padding: 10px;
     text-align: center;
 }
 
-.quot
-{
-    margin-left: 15%;
-    margin-right: 15%;
-    height: 35px;
+main h2 {
+    font-size: 1em;
+    text-align: justify;
+    padding: 10px 0 20px 0;
 }
+
+#nav-astro {
+    width: 17%;
+    float: left;
+    bottom: 5px;
+    left: 90px;
+}
+
+#nav-astro ul {
+    background: rgba(10, 53, 255, 0.80);
+    border-radius: 10px;
+    padding: 3%;
+    font-size: 1em;
+    text-align: center;
+}
+
+section#nav-astro a {
+    color: #010100;
+}
+
+
+
+
+#nav-astro a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#nav-astro a:hover {
+    color: #ff8c00;
+}
+
+#nav-astro ul {
+    list-style: none;
+    border: 2px solid gray;
+    padding-left: 5%;
+}
+
+#astro {
+    width: 78%;
+    float: right;
+    margin-left: 2%
+}
+
+article {
+    overflow: auto;
+}
+
+article>img {
+    width: 150px;
+    height: 156px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+article>div{
+    width: 75%;
+    text-align: justify;
+    float: right;
+    margin-top: 12px;
+    margin-right: 31px;
+}
+
+article>h3 {
+    text-align: center;
+}
+
+.gem {
+    color: brown;
+}
+#ema {
+    display: block;
+}
+
+.laugh>h1 {
+    width: 75%;
+    float: right;
+    margin: 20px;
+    border: 4px solid #69cdff;
+    box-shadow: 0 0 0 4px #16a9ff;
+    border-radius: 500px;
+}
+.asterix {
+    width: 50%;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.quot {
+    width: 78%;
+    float: right;
+}
+
 
 .nakov {
-    text-align: center;
+    margin-top: 50px;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.video {
-    margin-top: -45px;
-    padding: 15px;
+iframe {
+    margin-left: 23%;
+    margin-top: -70px;
 }

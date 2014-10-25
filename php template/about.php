@@ -16,7 +16,7 @@
 <main>
     <div id="main-wrapper">
         <h1>Създатели на сайта</h1>
-        <img src="http://static3.businessinsider.com/image/4bcf1bdc7f8b9acf574d0100-480/southpark-bear.jpg" alt="page-creators"/>
+        <img class="image" src="http://static3.businessinsider.com/image/4bcf1bdc7f8b9acf574d0100-480/southpark-bear.jpg" alt="page-creators"/>
         <hr/>
         <div id="text-main">
             <div class="deep-sky">
@@ -33,37 +33,44 @@
             <div class="us">А ето и малко повече информация за нас:</div>
 
             <section>
+
                 <article id="nikola" class="personal">
                     <img src="http://icons.iconarchive.com/icons/icons-land/vista-people/256/Person-Male-Light-icon.png" alt="icon"/>
                     <div class="text">
-                        <span>Никола Николов</span>
-                        lorem ipsum
+                        <h5>Никола Николов</h5>
+                        <p>Днес Пловдивският университет „Паисий Хилендарски“ има 9 факултета, в които се обучават над 8000 редовни и около
+                            5000 задочни студенти в повече от 40 специалности по природни, хуманитарни, обществени и икономически науки. В
+                           .</p>
                     </div>
                 </article>
 
                 <article id="todor" class="personal">
                     <img src="http://icons.iconarchive.com/icons/icons-land/vista-people/256/Person-Male-Light-icon.png" alt="icon"/>
                     <div class="text">
-                        <span>Тодор Атанасов</span>
-                        lorem ipsum
+                        <h5>Тодор Атанасов</h5>
+                        <p>Днес Пловдивският университет „Паисий Хилендарски“ има 9 факултета, в които се обучават над 8000 редовни и около
+                            5000 задочни студенти в повече от 40 специалности по природни, хуманитарни, обществени и икономически науки. В</p>
                     </div>
                 </article>
 
                 <article id="rossica" class="personal">
                     <img src="http://icons.iconarchive.com/icons/icons-land/vista-people/256/Person-Male-Light-icon.png" alt="icon"/>
                     <div class="text">
-                        <span>Росица Попова</span>
-                        lorem ipsum
+                        <h5>Росица Попова</h5>
+                        <p>Днес Пловдивският университет „Паисий Хилендарски“ има 9 факултета, в които се обучават над 8000 редовни и около
+                            5000 задочни студенти в повече от 40 специалности по природни, хуманитарни, обществени и икономически науки. В</p>
                     </div>
                 </article>
 
                 <article id="ivelin" class="personal">
                     <img src="http://icons.iconarchive.com/icons/icons-land/vista-people/256/Person-Male-Light-icon.png" alt="icon"/>
                     <div class="text">
-                        <span>Ивелин Марчев</span>
-                        lorem ipsum
+                        <h5>Ивелин Марчев</h5>
+                        <p>Днес Пловдивският университет „Паисий Хилендарски“ има 9 факултета, в които се обучават над 8000 редовни и около
+                            5000 задочни студенти в повече от 40 специалности по природни, хуманитарни, обществени и икономически науки. В</p>
                     </div>
                 </article>
+
             </section>
 
         </div>
