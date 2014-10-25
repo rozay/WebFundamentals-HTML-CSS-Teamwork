@@ -1,6 +1,6 @@
 <div id="header-wrapper">
     <div id="header-logo">
-        <img src="resources/header.jpg" alt="background image"/>
+        <img src="resources/h13.jpg" alt="background image"/>
     </div>
     <div id="navigation-wrapper">
         <nav id="navigation">

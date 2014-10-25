@@ -1,8 +1,27 @@
 /*Home page style*/
+@font-face {
+    font-family: Graffiti;
+    src: url('Sprite%20Graffiti.otf');
+}
 #homeHeader,#homeSubheader, #homePS{
     font-weight: lighter;
-    text-align: center;
+    text-align: left;
+    margin: 20px;
     color: #333333;
+}
+#homeHeader{
+    text-align: center;
+    font-size: 40px;
+    font-family: Graffiti;
+}
+#homeSubheader{
+    text-align: center;
+}
+#homePS{
+    text-align: right;
+}
+h4{
+    font-size: 1.3em;
 }
 .homeSection{
     display: inline-block;
@@ -27,8 +46,8 @@
     text-decoration:none;
 }
 .homeLinks:hover section{
-    background: lightgray;
-    color:#ffffff;
+    background: #d9caac;
+    color: #1D1D1D;;
     text-decoration:none;
 }
 .homeLinks:visited{
