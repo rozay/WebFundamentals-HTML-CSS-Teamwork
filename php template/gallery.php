@@ -8,7 +8,7 @@
     <link type="text/css" href="styles/styles-gallery.css" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/global.js"></script>
-
+    <script type="text/javascript" src="js/freezeframe.js"></script>
 </head>
 <body>
 <header class="header">
