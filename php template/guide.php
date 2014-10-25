@@ -4,13 +4,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Наръчник</title>
+
     <link type="text/css" href="styles/style.css" rel="stylesheet"/>
     <link type="text/css" href="styles/style-guide.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/baguetteBox.min.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/global.js"></script>
+    <script src="js/baguetteBox.min.js" async></script>
 </head>
 <body>
-<header class="header">
+<header>
     <?php include 'templates/header.php'; ?>
 </header>
 <main>
