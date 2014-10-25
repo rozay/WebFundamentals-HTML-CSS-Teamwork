@@ -107,5 +107,10 @@
 <footer>
     <?php include 'templates/footer.php'; ?>
 </footer>
+<script>
+    window.onload = function() {
+        baguetteBox.run('.baguetteBoxOne');
+    };
+</script>
 </body>
 </html>
