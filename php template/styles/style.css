@@ -1,4 +1,9 @@
-﻿@font-face {
+﻿body, header, section, article, img, div, svg, span, a {
+    box-sizing: border-box;
+    outline: none;
+}
+
+@font-face {
     font-family: BebasNeueBook;
     src: url('BebasNeue%20Book.otf');
 }
@@ -22,6 +27,7 @@ header {
 
 /*- 1.1. Header logo -*/
 #header-logo {
+	overflow: auto;
     width: auto;
     margin: 0 auto;
     max-width: 1400px;
@@ -46,31 +52,32 @@ header a {
     float: left;
 }
 
-#navigation {
+
+#navigation-bg {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
 }
 
-#navigation ul {
+#navigation-bg ul {
     margin: 0;
     float: right;
 }
 
-#navigation li {
+
+#navigation-bg li {
     display: inline-block;
     list-style: none;
     color: #fff;
     width: 140px;
-    height: 50px;
     text-align: center;
     background: none;
     line-height: 50px;
-    font-size: 20px;
+    font-size: 1.2em;
     cursor: pointer;
 }
 
-#navigation li:hover {
+#navigation-bg li:hover {
     /*background: #ff8c00;*/
     background: #d9caac;
     -webkit-transition: background .4s ease-in-out;
@@ -79,20 +86,37 @@ header a {
     -o-transition: background .4s ease-in-out;
     transition: background .4s ease-in-out;
 }
-#navigation li:hover > a{
+#navigation-bg li:hover > a{
     color: #1D1D1D;
 }
-#up-to-top {
-    display: none;
-    position: fixed;
-    right: 12px;
-    bottom: 12px;
-    box-sizing: border-box;
+
+/*- 1.3. Mobile menu -*/
+
+.site-nav-toggle {
+     margin: 0 auto;
+     display: none;
+     padding: 5px;
+ }
+
+.site-nav-toggle svg {
+    vertical-align: middle;
 }
 
-#up-to-top:hover {
-    opacity: 0.6;
-    transition: opacity .2s ease-in-out;
+#navigation-mobile {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#navigation-mobile ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navigation-mobile li {
+    background: gray;
 }
 
 /*--- Main content ---*/
@@ -153,10 +177,6 @@ footer li {
 
 footer li:hover {
     color: #ff8c00;
-    -webkit-transition: color .2s ease-in-out;
-    -moz-transition: color .2s ease-in-out;
-    -ms-transition: color .2s ease-in-out;
-    -o-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
 }
 
@@ -164,3 +184,65 @@ footer li:hover {
     margin: 15px 0 0 40px;
 }
 
+#up-to-top {
+    display: none;
+    position: fixed;
+    right: .5%;
+    bottom: .5%;
+    box-sizing: border-box;
+    opacity: 0.6;
+}
+
+#up-to-top:hover {
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 14px;
+    }
+
+    #guide {
+        padding: 2%;
+    }
+
+    #up-to-top {
+        transform: scale(.7);
+        right: .2%;
+        bottom: .2%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    nav#navigation-bg ul {
+        display: none;
+    }
+
+    #header-logo {
+        //display: none;
+    }
+    .site-nav-toggle {
+        display: block;
+    }
+
+    #navigation-guide {
+        display: none;
+    }
+
+    section#guide {
+        width: 100%;
+    }
+
+    article div {
+        width: 100% !important;
+        padding: 1%;
+    }
+
+
+    #guide article img {
+        width: 50%;
+    }
+}

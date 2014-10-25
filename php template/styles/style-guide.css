@@ -1,7 +1,4 @@
-header, section, article, img, div, svg {
-    //border: 2px solid black;
-    box-sizing: border-box;
-}
+
 
 main {
     overflow: auto;
@@ -27,10 +24,7 @@ main h2 {
 
 section#navigation-guide a {
     color: #ffffff;
-
 }
-
-
 
 #navigation-guide a {
     color: #000000;
@@ -44,13 +38,13 @@ section#navigation-guide a {
 #navigation-guide ul {
     list-style: none;
     border: 2px solid gray;
-    padding-left: 5%;
+    padding: 5% 1% 5% 5%;
 }
 
 #guide {
-    width: 78%;
+    width: 80%;
     float: right;
-    margin-left: 2%
+    padding-left: 2%;
 }
 
 article div {
@@ -71,3 +65,4 @@ article div{
     width: 65%;
     float: right;
 }
+
