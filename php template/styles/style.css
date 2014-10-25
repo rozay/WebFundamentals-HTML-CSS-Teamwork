@@ -104,10 +104,10 @@ header a {
 /*- 1.3. Mobile menu -*/
 
 .site-nav-toggle {
-     margin: 0 auto;
-     display: none;
-     padding: 5px;
- }
+    margin: 0 auto;
+    display: none;
+    padding: 5px;
+}
 
 .site-nav-toggle svg {
     vertical-align: middle;
@@ -127,7 +127,15 @@ header a {
 }
 
 #navigation-mobile li {
-    background: gray;
+    background: #1D1D1D;
+    padding: 1%;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid gray;
+}
+
+#navigation-mobile li:hover {
+    background: orange;
 }
 
 /*--- Main content ---*/
