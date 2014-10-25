@@ -23,7 +23,7 @@ body {
 
 /*--- 1. Header---*/
 
-header {
+#header {
     overflow: auto;
     /*background: #1D1D1D;*/
     background: #0f0f0f;

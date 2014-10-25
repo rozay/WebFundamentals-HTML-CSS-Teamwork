@@ -1,0 +1,22 @@
+article {
+    overflow: auto;
+}
+header {
+    background: #eeeeee;
+}
+h2 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+section {
+    width: 78%;
+    float: right;
+}
+section h1 {
+    font-size: 2em;
+}

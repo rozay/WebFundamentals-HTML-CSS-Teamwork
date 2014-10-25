@@ -10,7 +10,7 @@
     <script type="text/javascript" src="js/global.js"></script>
 </head>
 <body>
-<header>
+<header class="header">
     <?php include 'templates/header.php'; ?>
 </header>
 <main>
