@@ -11,7 +11,7 @@ main h1 {
 }
 
 main h2 {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: justify;
     padding: 10px 0 20px 0;
 }
@@ -64,10 +64,10 @@ article {
 }
 
 article>img {
-    width: 150px;
-    height: 156px;
+    width: 179px;
+    height: 165px;
     float: left;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 article>div{
@@ -80,6 +80,8 @@ article>div{
 
 article>h3 {
     text-align: center;
+    margin: 8px;
+    font-size: 1.5em;
 }
 
 .gem {
