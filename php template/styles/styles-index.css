@@ -34,6 +34,7 @@ h4{
 .homeSection{
     display: inline-block;
     width: 30%;
+    height:465px;
     margin: 1%;
     text-align: center;
     vertical-align: top;
@@ -41,13 +42,15 @@ h4{
     border: 1px solid lightgray;
 }
 .homeParagraph{
-    margin-left: 25px;
+    margin: 15px;
     text-align: left;
 }
 
 section img {
-    max-width: 90%;
-    height: auto;
+    width: 315px;
+    height: 315px;
+    /*max-width: 90%;*/
+    /*height: auto;*/
 }
 
 .homeLinks{
