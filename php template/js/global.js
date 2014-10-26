@@ -19,6 +19,13 @@ jQuery(document).ready(function($) {
     $('.site-nav-toggle').click(function() {
         $('#navigation-mobile').slideToggle();
         $(this).find('div:hidden').show().siblings().hide();
-
 	});
+
+    // Hide mobile-menu > 768
+    $(window).resize(function() {
+        if ($(window).width() > 768) {
+            $("#navigation-mobile").hide();
+        }
+    });
+
 });

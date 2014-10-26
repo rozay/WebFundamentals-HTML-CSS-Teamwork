@@ -3,12 +3,18 @@
     font-family: Graffiti;
     src: url('Sprite%20Graffiti.otf');
 }
+
 #homeHeader,#homeSubheader, #homePS{
     font-weight: lighter;
     text-align: left;
     margin: 20px;
     color: #333333;
 }
+
+#links {
+    text-align: center;
+}
+
 #homeHeader{
     text-align: center;
     font-size: 40px;
@@ -18,16 +24,17 @@
     text-align: center;
 }
 #homePS{
-    text-align: right;
+    text-align: justify;
+    float: right;
 }
 h4{
     font-size: 1.3em;
+    flex: 100%;
 }
 .homeSection{
     display: inline-block;
-    height: 400px;
-    width: 300px;
-    margin: 20px;
+    width: 30%;
+    margin: 1%;
     text-align: center;
     vertical-align: top;
 
@@ -37,10 +44,12 @@ h4{
     margin-left: 25px;
     text-align: left;
 }
-.homeImgSection{
-    width: 250px;
-    height: 250px;
+
+section img {
+    max-width: 90%;
+    height: auto;
 }
+
 .homeLinks{
     color:#333333;
     text-decoration:none;

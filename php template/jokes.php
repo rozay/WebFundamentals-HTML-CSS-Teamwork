@@ -15,25 +15,25 @@
 </header>
 <main>
     <div id="main-wrapper">
-        <h1>В тази страница са подбрани всякакви бисери, шукарии и тъпотии.</h1>
             <section id="nav-astro">
                 <ul>
-                    <li><a href="#aries"><div><b>♈ Овен</b></div></a></li>
-                    <li><a href="#taurus"><div><b>♉ Телец</b></div></a></li>
-                    <li><a href="#gemini"><div><b><span class="gem">♊</span> Близнаци</b></div></a></li>
-                    <li><a href="#cancer"><div><b><span>♋</span> Рак</b></div></a></li>
-                    <li><a href="#leo"><div><b>♌ Лъв</b></div></a></li>
-                    <li><a href="#virgo"><div><b>♍ Дева</b></div></a></li>
-                    <li><a href="#libra"><div><b><span>♎</span> Везни</b></div></a></li>
-                    <li><a href="#scorpio"><div><b><span>♏</span> Скорпион</b></div></a></li>
-                    <li><a href="#archer"><div><b>♐ Стрелец</b></div></a></li>
-                    <li><a href="#capricorn"><div><b>♑ Козирог</b></div></a></li>
-                    <li><a href="#waterman"><div><b><span>♒</span> Водолей</b></div></a></li>
-                    <li><a href="#fish"><div><b><span>♓</span> Риби</b></div></a></li>
+                    <li><a href="#aries"><div><b><span class="gem">♈</span> Овен</b></div></a></li>
+                    <li><a href="#taurus"><div><b><span class="gem">♉</span> Телец</b></div></a></li>
+                    <li><a href="#gemini"><div><b><span class="gem">♊ </span> Близнаци</b></div></a></li>
+                    <li><a href="#cancer"><div><b><span class="gem">♋</span> Рак</b></div></a></li>
+                    <li><a href="#leo"><div><b><span class="gem">♌</span> Лъв</b></div></a></li>
+                    <li><a href="#virgo"><div><b><span class="gem">♍</span> Дева</b></div></a></li>
+                    <li><a href="#libra"><div><b><span class="gem">♎</span> Везни</b></div></a></li>
+                    <li><a href="#scorpio"><div><b><span class="gem">♏</span> Скорпион</b></div></a></li>
+                    <li><a href="#archer"><div><b><span class="gem">♐</span> Стрелец</b></div></a></li>
+                    <li><a href="#capricorn"><div><b><span class="gem">♑</span> Козирог</b></div></a></li>
+                    <li><a href="#waterman"><div><b><span class="gem">♒</span> Водолей</b></div></a></li>
+                    <li><a href="#fish"><div><b><span class="gem">♓</span> Риби</b></div></a></li>
                 </ul>
             </section>
 
                 <section id="astro">
+                    <h1>В тази страница са подбрани всякакви бисери, шукарии и тъпотии.</h1>
                     <h2>Няма значение дали вярвате в астрологията, дали си падате по чашката, или сте заклети трезвеници - когато седнем да побъбрим на маса, зодиите и пиянските истории са едни от вечните теми.Тук е събрано едно обобщение на алкохолните навици на всяка зодия.</h2>
                     <hr>
                     <article id="aries">
@@ -162,12 +162,14 @@
 
             <div class="nakov">
                 <h2>И.... като за финал ви поздравяваме с една песничка, изпълнена от нашия вдъхновител Г-н Наков!!</h2>
-
-                <p>&nbsp</p>
             </div>
+
+            <div id="youtube">
             <iframe width="640" height="380"
                     src="http://www.youtube.com/embed/JD2J3DUGi24">
             </iframe>
+        </div>
+
         </div>
 </main>
 <footer>

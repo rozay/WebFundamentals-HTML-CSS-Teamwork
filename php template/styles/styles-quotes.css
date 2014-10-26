@@ -1,45 +1,34 @@
-body {
-    margin-bottom: 10px;
-}
-
 main {
     overflow: auto;
 }
 main h1 {
     padding: 10px;
     text-align: center;
+    float: right;
+    width: 100%;
 }
 
 main h2 {
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: justify;
     padding: 10px 0 20px 0;
 }
 
 #nav-astro {
-    width: 17%;
+    width: 20%;
     float: left;
-    bottom: 5px;
-    left: 90px;
 }
 
 #nav-astro ul {
     background: rgba(10, 53, 255, 0.80);
     border-radius: 10px;
     padding: 3%;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
 }
 
 section#nav-astro a {
     color: #010100;
-}
-
-
-
-
-#nav-astro a {
-    color: #000000;
     text-decoration: none;
 }
 
@@ -54,9 +43,9 @@ section#nav-astro a {
 }
 
 #astro {
-    width: 78%;
+    width: 80%;
     float: right;
-    margin-left: 2%
+    padding-left: 2%
 }
 
 article {
@@ -64,24 +53,19 @@ article {
 }
 
 article>img {
-    width: 179px;
-    height: 165px;
+    width: 20%;
     float: left;
-    margin-bottom: 0;
 }
 
 article>div{
-    width: 75%;
+    max-width: 80%;
     text-align: justify;
     float: right;
-    margin-top: 12px;
-    margin-right: 31px;
+    padding-left: 1%;
 }
 
 article>h3 {
     text-align: center;
-    margin: 8px;
-    font-size: 1.5em;
 }
 
 .gem {
@@ -92,18 +76,19 @@ article>h3 {
 }
 
 .laugh>h1 {
-    width: 75%;
+    width: 78%;
     float: right;
-    margin: 20px;
+    margin: 2% 0;
     border: 4px solid #69cdff;
     box-shadow: 0 0 0 4px #16a9ff;
     border-radius: 500px;
 }
 .asterix {
-    width: 50%;
+    width: 78%;
     float: right;
     font-size: 25px;
     font-weight: bold;
+    text-align: center;
 }
 
 .quot {
@@ -113,13 +98,24 @@ article>h3 {
 
 
 .nakov {
-    margin-top: 50px;
+    width: 78%;
+    margin-top: 3%;
     float: right;
     font-size: 30px;
     font-weight: bold;
 }
 
 iframe {
-    margin-left: 23%;
-    margin-top: -70px;
+    float: left;
+    width: 640px;
+    max-width: 100%;
+    max-height: 480px;
+}
+
+#youtube {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 78%;
+    float: right;
 }

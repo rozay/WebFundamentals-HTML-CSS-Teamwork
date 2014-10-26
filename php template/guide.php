@@ -13,7 +13,7 @@
     <script src="js/baguetteBox.min.js" async></script>
 </head>
 <body>
-<header>
+<header class="header">
     <?php include 'templates/header.php'; ?>
 </header>
 <main>

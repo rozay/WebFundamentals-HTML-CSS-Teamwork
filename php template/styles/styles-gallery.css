@@ -1,7 +1,7 @@
 article {
     overflow: auto;
 }
-header {
+main header {
     background: #eeeeee;
 }
 h2 {
@@ -14,7 +14,7 @@ h2 {
     -webkit-margin-end: 0px;
 }
 section {
-    width: 78%;
+    width: 100%;
     float: right;
 }
 section h1 {
