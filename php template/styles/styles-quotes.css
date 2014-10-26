@@ -10,7 +10,7 @@ main h1 {
 
 main h2 {
     font-size: 1em;
-    text-align: justify;
+    text-align: center;
     padding: 10px 0 20px 0;
 }
 
@@ -20,11 +20,10 @@ main h2 {
 }
 
 #nav-astro ul {
-    background: rgba(10, 53, 255, 0.80);
+    background: rgba(29, 29, 29, 0.3);
     border-radius: 10px;
     padding: 3%;
     font-size: 1.2em;
-    text-align: center;
 }
 
 section#nav-astro a {
