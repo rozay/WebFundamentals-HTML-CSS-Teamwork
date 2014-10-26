@@ -275,6 +275,21 @@ footer li:hover {
         width: 100% !important;
     }
 
+    #astro>article {
+        text-align: center;
+    }
+
+    #astro>article>img {
+        width: 50%;
+        max-width: 183px;
+        float: none;
+    }
+
+    main #astro article div {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
     #ema img {
         width: auto;
         max-width: 100%;
