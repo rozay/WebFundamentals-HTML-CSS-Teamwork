@@ -271,8 +271,18 @@ footer li:hover {
         display: none;
     }
 
-    section#guide, #astro, main #astro h1, main .laugh h1, .quot, .asterix, .nakov, #youtube {
+    section#guide, #astro, main #astro h1, main .laugh h1, .quot, .asterix, .nakov, #youtube, #ema {
         width: 100% !important;
+    }
+
+    #ema img {
+        width: auto;
+        max-width: 100%;
+    }
+
+    #ema div {
+        text-align: center;
+        max-width: 100% !important;
     }
 
     article div, #links {
