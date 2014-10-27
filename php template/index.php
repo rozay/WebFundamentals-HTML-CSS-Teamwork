@@ -11,7 +11,7 @@
 </head>
 <body>
 <header class="header">
-    <?php include 'templates/header.php'; ?>
+    <?php include 'templates/header.php';?>
 </header>
 <main>
     <div id="main-wrapper">
@@ -44,7 +44,7 @@
     </div>
 </main>
 <footer>
-    <?php include 'templates/footer.php'; ?>
+    <?php include 'templates/footer.php';?>
 </footer>
 </body>
 </html>
