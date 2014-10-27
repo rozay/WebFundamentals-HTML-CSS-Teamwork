@@ -1,4 +1,4 @@
-﻿body, header, section, article, img, div, svg, circle, line, span, a, iframe, h1, h2, h3, h4, h5, h6 {
+﻿body, header, section, aside, article, img, div, svg, circle, line, span, a, iframe, h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
     outline: none !important;
 }
@@ -100,19 +100,9 @@ header a {
     cursor: pointer;
 }
 
-#navigation-bg li:hover {
-    /*background: #ff8c00;*/
-    /*background: #d9caac;*/
-    /*background: #9389d0;*/
-    -webkit-transition: background .4s ease-in-out;
-    -moz-transition: background .4s ease-in-out;
-    -ms-transition: background .4s ease-in-out;
-    -o-transition: background .4s ease-in-out;
-    transition: background .4s ease-in-out;
-}
 #navigation-bg li:hover > a{
-    /*color: #1D1D1D;*/
     color: #9389d0;
+    transition: color .2s ease-in-out;
 }
 
 /*- 1.3. Mobile menu -*/
@@ -170,11 +160,11 @@ main {
     height: 100%;
 }
 
-h1 {
+main h1 {
     margin: 0;
 }
 
-h2, ul {
+main h2, ul {
     margin: 0;
 }
 
@@ -195,21 +185,23 @@ footer {
 }
 
 #footer-links {
-    width: 100%;
-    display: inline-flex;
+    width: 60%;
+    display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 #footer-col-1, #footer-col-2, #footer-col-3 {
     display: inline-block;
     padding-top: 20px;
-    width: 20%;
+    width: auto;
 }
 
 footer ul {
     height: auto;
-    margin: auto 0;
+    padding: 0;
+    margin: auto;
     list-style: none;
 }
 
@@ -219,14 +211,19 @@ footer li {
     width: 100%;
 }
 
-footer li:hover {
+footer li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer li a:hover {
     /*color: #ff8c00;*/
     color: #9389d0;
     transition: color .2s ease-in-out;
 }
 
 #copyright {
-    margin: 15px 0 0 40px;
+    margin: 2% 0 1%;
 }
 
 #validation {
@@ -293,8 +290,12 @@ footer li:hover {
         width: 100%;
     }
 
-    section#guide, #astro, main #astro h1, main .laugh h1, .quot, .asterix, .nakov, #youtube, #ema {
+    section#guide, #astro, main #astro h1, main .laugh h1, .quot, .asterix, .nakov, #youtube, .ema, #footer-links {
         width: 100% !important;
+    }
+
+    #footer-links {
+        justify-content: space-around;
     }
 
     #astro>article {
@@ -312,12 +313,12 @@ footer li:hover {
         max-width: 100% !important;
     }
 
-    #ema img {
+    .ema img {
         width: auto;
         max-width: 100%;
     }
 
-    #ema div {
+    .ema div {
         text-align: center;
         max-width: 100% !important;
     }

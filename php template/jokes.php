@@ -15,7 +15,7 @@
 </header>
 <main>
     <div id="main-wrapper">
-            <section id="nav-astro">
+            <aside id="nav-astro">
                 <ul>
                     <li><a href="#aries"><div><span class="gem">♈</span> Овен</div></a></li>
                     <li><a href="#taurus"><div><span class="gem">♉</span> Телец</div></a></li>
@@ -30,7 +30,7 @@
                     <li><a href="#waterman"><div><span class="gem">♒</span> Водолей</div></a></li>
                     <li><a href="#fish"><div><span class="gem">♓</span> Риби</div></a></li>
                 </ul>
-            </section>
+            </aside>
 
                 <section id="astro">
                     <h1>Зодии</h1>
@@ -50,9 +50,9 @@
                     </article>
 
                     <hr>
-                    <article id="ema">
-                    <div><img src="resources/images/jokes/ema-stone.gif" alt="alcohol" width="400px" height="200px"/></div>
-                    </article>
+                    <div class="ema">
+                    <img src="resources/images/jokes/ema-stone.gif" alt="alcohol" width="400" height="200"/>
+                    </div>
 
                     <hr>
                     <article id="gemini">
@@ -76,9 +76,9 @@
                     </article>
 
                     <hr>
-                    <article id="ema">
-                        <div><img src="resources/images/jokes/vodka.gif" alt="alcohol" width="400px" height="200px"/></div>
-                    </article>
+                    <div class="ema">
+                        <img src="resources/images/jokes/vodka.gif" alt="alcohol" width="400" height="200"/>
+                    </div>
 
                     <hr>
                     <article id="virgo">
@@ -110,9 +110,9 @@
 
 
                     <hr>
-                    <article id="ema">
-                        <div><img src="resources/images/jokes/dicaprio.gif" alt="alcohol" width="450px" height="210px"/></div>
-                    </article>
+                    <div class="ema">
+                        <img src="resources/images/jokes/dicaprio.gif" alt="alcohol" width="450" height="210"/>
+                    </div>
 
                     <hr>
                     <article id="capricorn">
@@ -137,7 +137,7 @@
                     <hr>
                 </section>
 
-                <div class="laugh"><h1>Малко смях от залата...</h1></div>
+                <div class="laugh"><h2>Малко смях от залата...</h2></div>
 
                 <div class="asterix">***</div>
                 <div class="quot"><b>Наков</b>: "Щях да кажа "Мамка му", ама нали сме в час - нищо няма да кажа."</div>
@@ -145,7 +145,7 @@
                 <div class="quot"><b>Наков</b> чете числото 1000000 в двоична бройна система като "1 милион". Поправя се..: "Това всъщност трябва да се
                             чете като едно и шест нули, а не като един милион. Това е все едно да четете числото 100 като - едно, кенеф".</div>
                 <div class="asterix">***</div>
-                <div class="quot">&nbsp</div>
+                <div class="quot">&nbsp;</div>
 
                 <div class="quot"><b>Наков</b> когато нещо иска да се ъпдейтне: "МАХАЙ СЕ БЕ ГАД МРЪСНА!"</div>
                 <div class="asterix">***</div>
@@ -153,7 +153,7 @@
                             Студент от залата: " - Защо чушката?"
                             Наков: " - Еми чушката бе! Ръгаш я и тръгва!"</div>
 
-                <div>&nbsp</div>
+                <div>&nbsp;</div>
                 <div class="asterix">***</div>
                 <div class="quot"> <b>Наков</b>".. няя как в едно чекмедже да съберем безкраен брой чорапи, нали.. просто НЕ СТАА
                             - има лимит"</div>

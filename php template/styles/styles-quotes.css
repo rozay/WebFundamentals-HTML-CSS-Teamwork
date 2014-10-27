@@ -20,7 +20,7 @@ main h2 {
 }
 
 #nav-astro ul {
-    background: rgba(29, 29, 29, 0.3);
+    background: rgba(29, 29, 29, 0.7);
     border-radius: 10px;
     padding: 3%;
     font-size: 1.2em;
@@ -31,18 +31,20 @@ main h2 {
     /*font-weight: bold;*/
 }
 
-section#nav-astro a {
-    color: #010100;
+#nav-astro li {
+    line-height: 27px;
+}
+
+aside#nav-astro a {
+    color: #ffffff;
     text-decoration: none;
 }
 
 #nav-astro a:hover {
-    color: #ffffff;
+    color: #9389d0;
 }
 
-#nav-astro ul {
 
-}
 
 #astro {
     width: 80%;
@@ -74,19 +76,21 @@ article>h3 {
 .gem {
     color: brown;
 }
-#ema {
+.ema {
     display: block;
-
-}
-
-#ema div {
     text-align: center;
     max-width: 100%;
     float: none;
+
 }
 
-.laugh>h1 {
+.ema div {
+
+}
+
+.laugh>h2 {
     width: 78%;
+    font-size: 2em;
     float: right;
     margin: 2% 0;
     border: 4px solid #69cdff;

@@ -18,19 +18,19 @@
 </header>
 <main>
     <div id="main-wrapper">
-        <section id="navigation-guide">
+        <aside id="navigation-guide">
             <ul>
-                <li><a href="#phase1"><div>1 - Първи стъпки</div></a></li>
-                <li><a href="#phase2"><div>2 - Фрустрация</div></a></li>
-                <li><a href="#phase3"><div>3 - Ахааааа!</div></a></li>
-                <li><a href="#phase4"><div>4 - Чуплив код</div></a></li>
-                <li><a href="#phase5"><div>5 - Имитатор</div></a></li>
-                <li><a href="#phase6"><div>6 - Самохвалко</div></a></li>
-                <li><a href="#phase7"><div>7 - Бързак</div></a></li>
+                <li><a href="#phase1"><div>1 – Първи стъпки</div></a></li>
+                <li><a href="#phase2"><div>2 – Фрустрация</div></a></li>
+                <li><a href="#phase3"><div>3 – Ахааааа!</div></a></li>
+                <li><a href="#phase4"><div>4 – Чуплив код</div></a></li>
+                <li><a href="#phase5"><div>5 – Имитатор</div></a></li>
+                <li><a href="#phase6"><div>6 – Самохвалко</div></a></li>
+                <li><a href="#phase7"><div>7 – Бързак</div></a></li>
                 <li><a href="#phase8"><div>8 – Изкуство</div></a></li>
                 <li><a href="#phase9"><div>9 – Нинджа</div></a></li>
             </ul>
-        </section>
+        </aside>
         <section id="guide" class="baguetteBoxOne">
             <h2>Кариерата на един програмист преминава през няколко фази на развитие. Пътят е стръмен и често преминава през периоди на чувство на неудовлетвореност, просветление и самодоволство. Може би най-голямото ти предимство обаче е, че нямаш никаква представа какво те очаква.</h2>
             <article id="phase1">

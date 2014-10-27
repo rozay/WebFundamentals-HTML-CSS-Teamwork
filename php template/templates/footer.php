@@ -2,35 +2,38 @@
     <div id="footer-links">
         <div id="footer-col-1">
             <ul>
-                <li>Col-1 Линк 1</li>
-                <li>Col-1 Линк 2</li>
-                <li>Col-1 Линк 3</li>
+                <li><a href="https://github.com/rozay/WebFundamentals-HTML-CSS-Teamwork" target="_blank">Source code</a></li>
+
             </ul>
         </div>
 
         <div id="footer-col-2">
             <ul>
-                <li>Col-2 Линк 1</li>
-                <li>Col-2 Линк 2</li>
-                <li>Col-2 Линк 3</li>
+                <li><a href="https://softuni.bg/" target="_blank">Софтуерен университет</a></li>
+                <li><a href="http://nakov.com/" target="_blank">Светлин Наков блог</a></li>
+                <li><a href="http://introprogramming.info/" target="_blank">C# книга</a></li>
             </ul>
         </div>
 
-        <div id="footer-col-2">
+        <div id="footer-col-3">
             <ul>
-                <li>Col-2 Линк 1</li>
                 <li>
-                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
                         <img style="border:0;width:88px;height:31px"
-                             src="http://jigsaw.w3.org/css-validator/images/vcss"
-                             alt="Valid CSS!" />
+                             src="resources/html5-logo.png" alt="Valid HTML5!" />
                     </a>
                 </li>
-                <li>Col-2 Линк 3</li>
+                <li>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                        <img style="border:0;width:88px;height:31px"
+                             src="resources/valid-css-blue.gif" alt="Valid CSS!" />
+                    </a>
+                </li>
             </ul>
         </div>
+        <div id="copyright">Copyright © 2014 Deep Sky Blue. Всички права запазени.</div>
     </div>
-    <div id="copyright">Copyright © 2014 Deep Sky Blue. Всички права запазени.</div>
+
 
 
 </div>

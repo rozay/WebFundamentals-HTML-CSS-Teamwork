@@ -26,33 +26,13 @@
             </div>
 
             <div class="mobile-nav-close" style="display: none;">
-                <svg x="0px" y="0px" width="35px" height="25px" viewBox="0 0 35 25" enable-background="new 0 0 35 25" xml:space="preserve">
+                <svg x="0px" y="0px" width="50px" height="40px" viewBox="0 0 50 40" enable-background="new 0 0 50 40" xml:space="preserve">
                     <defs></defs>
-                    <line id="close-topLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="7.5" y1="2.5" x2="27.5" y2="22.5" class="topLineActive"></line>
-                    <line id="close-bottomLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="7.5" y1="22.5" x2="27.5" y2="2.5" class="bottomLineActive"></line>
+                    <line id="close-topLine" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="7.5" y1="4" x2="42.5" y2="36" class="topLineActive"></line>
+                    <line id="close-bottomLine" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="7.5" y1="36" x2="42.5" y2="4" class="bottomLineActive"></line>
                 </svg>
             </div>
         </div>
-
-<!--        <div class="site-nav-toggle">-->
-<!--            <div class="mobile-nav-open">-->
-<!--                <svg x="0px" y="0px" width="35px" height="25px" viewBox="0 0 35 25" enable-background="new 0 0 35 25" xml:space="preserve">-->
-<!--                    <defs></defs>-->
-<!--                    <line id="topLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="2.5" x2="32.5" y2="2.5"></line>-->
-<!--                    <line id="middleLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="12.5" x2="32.5" y2="12.5"></line>-->
-<!--                    <line id="bottomLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="22.5" x2="32.5" y2="22.5"></line>-->
-<!--                </svg>-->
-<!--            </div>-->
-<!---->
-<!--            <div class="mobile-nav-close" style="display: none;">-->
-<!--                <svg x="0px" y="0px" width="35px" height="25px" viewBox="0 0 35 25" enable-background="new 0 0 35 25" xml:space="preserve">-->
-<!--                    <defs></defs>-->
-<!--                    <line id="topLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="7.5" y1="2.5" x2="27.5" y2="22.5" class="topLineActive"></line>-->
-<!--                    <line id="bottomLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="7.5" y1="22.5" x2="27.5" y2="2.5" class="bottomLineActive"></line>-->
-<!--                </svg>-->
-<!--            </div>-->
-<!--        </div>-->
-
 
         <nav id="navigation-mobile">
             <ul>
