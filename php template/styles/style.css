@@ -1,6 +1,6 @@
-﻿body, header, section, article, img, div, svg, span, a, iframe, h1, h2, h3, h4, h5, h6 {
+﻿body, header, section, article, img, div, svg, circle, line, span, a, iframe, h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
-    outline: none;
+    outline: none !important;
 }
 
 a:active, a:focus, svg, svg:active, svg:focus {
@@ -24,7 +24,7 @@ body {
     background-image: url(../resources/2.bmp);
     width: 100%;
     margin: 0 auto;
-    font-family: Hagin;
+    font-family: Helvetica;
     font-size: 16px;
 }
 
@@ -63,16 +63,22 @@ header a {
 }
 
 #navigation-wrapper {
+    height: 170px;
     width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
     overflow: auto;
-    float: left;
+    /*float: left;*/
+    background-image: url(../resources/1.bmp);
+    background-repeat: no-repeat;
 }
 
 
 #navigation-bg {
+    height: 50px;
+    margin-top: 120px;
     width: 100%;
     max-width: 1170px;
-    margin: 0 auto;
 }
 
 #navigation-bg ul {
@@ -179,7 +185,7 @@ footer {
     color: #fff;
     float: left;
     width: 100%;
-    font-family: BebasNeueBook;
+    font-family: Helvetica;
 }
 
 #footer-wrapper {
@@ -191,11 +197,11 @@ footer {
 #footer-links {
     width: 100%;
     display: inline-flex;
-    flex-direction: row wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
-#footer-col-1, #footer-col-2 {
+#footer-col-1, #footer-col-2, #footer-col-3 {
     display: inline-block;
     padding-top: 20px;
     width: 20%;
@@ -223,8 +229,13 @@ footer li:hover {
     margin: 15px 0 0 40px;
 }
 
+#validation {
+    float: right;
+}
+
 #up-to-top {
     display: none;
+    background: transparent;
     position: fixed;
     right: .5%;
     bottom: .5%;
@@ -256,19 +267,30 @@ footer li:hover {
 
 @media screen and (max-width: 768px) {
 
-    nav#navigation-bg ul {
+    #navigation-wrapper {
+        background: none;
+        height: 50px;
+    }
+
+    nav#navigation-bg {
         display: none;
     }
 
-    #header-logo {
-        //display: none;
-    }
     .site-nav-toggle {
         display: block;
     }
 
     #navigation-guide, #nav-astro {
         display: none;
+
+    }
+
+    .homeSection {
+        margin: 0 !important;
+    }
+
+    #links section {
+        width: 100%;
     }
 
     section#guide, #astro, main #astro h1, main .laugh h1, .quot, .asterix, .nakov, #youtube, #ema {
@@ -307,5 +329,9 @@ footer li:hover {
 
     #guide article img {
         width: 50%;
+    }
+
+    #up-to-top:hover {
+        opacity: 0.6;
     }
 }

@@ -15,8 +15,24 @@
                 <li>Col-2 Линк 3</li>
             </ul>
         </div>
+
+        <div id="footer-col-2">
+            <ul>
+                <li>Col-2 Линк 1</li>
+                <li>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                             src="http://jigsaw.w3.org/css-validator/images/vcss"
+                             alt="Valid CSS!" />
+                    </a>
+                </li>
+                <li>Col-2 Линк 3</li>
+            </ul>
+        </div>
     </div>
-    <div id="copyright"> Copyright © 2014 Deep Sky Blue. Всички права запазени.</div>
+    <div id="copyright">Copyright © 2014 Deep Sky Blue. Всички права запазени.</div>
+
+
 </div>
 
 <div id="up-to-top" title="Нагоре">

@@ -24,6 +24,11 @@ main h2 {
     border-radius: 10px;
     padding: 3%;
     font-size: 1.2em;
+    text-align: center;
+    list-style: none;
+    border: 2px solid gray;
+    /*padding-left: 5%;*/
+    /*font-weight: bold;*/
 }
 
 section#nav-astro a {
@@ -32,13 +37,11 @@ section#nav-astro a {
 }
 
 #nav-astro a:hover {
-    color: #ff8c00;
+    color: #ffffff;
 }
 
 #nav-astro ul {
-    list-style: none;
-    border: 2px solid gray;
-    padding-left: 5%;
+
 }
 
 #astro {
@@ -46,6 +49,7 @@ section#nav-astro a {
     float: right;
     padding-left: 2%
 }
+
 
 article {
     overflow: auto;
@@ -72,6 +76,13 @@ article>h3 {
 }
 #ema {
     display: block;
+
+}
+
+#ema div {
+    text-align: center;
+    max-width: 100%;
+    float: none;
 }
 
 .laugh>h1 {

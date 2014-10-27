@@ -15,15 +15,14 @@ main h2 {
 }
 
 #navigation-guide ul {
-    background: rgba(29, 29, 29, 0.8);
+    background: rgba(29, 29, 29, 0.3);
     border-radius: 10px;
     padding: 10%;
     font-size: 1.2em;
-
 }
 
 section#navigation-guide a {
-    color: #ffffff;
+    color: #010100;
 }
 
 #navigation-guide a {
@@ -32,7 +31,7 @@ section#navigation-guide a {
 }
 
 #navigation-guide a:hover {
-    color: #ff8c00;
+    color: #ffffff;
 }
 
 #navigation-guide ul {

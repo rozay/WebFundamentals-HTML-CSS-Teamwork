@@ -17,18 +17,18 @@
     <div id="main-wrapper">
             <section id="nav-astro">
                 <ul>
-                    <li><a href="#aries"><div><b><span class="gem">♈</span> Овен</b></div></a></li>
-                    <li><a href="#taurus"><div><b><span class="gem">♉</span> Телец</b></div></a></li>
-                    <li><a href="#gemini"><div><b><span class="gem">♊ </span> Близнаци</b></div></a></li>
-                    <li><a href="#cancer"><div><b><span class="gem">♋</span> Рак</b></div></a></li>
-                    <li><a href="#leo"><div><b><span class="gem">♌</span> Лъв</b></div></a></li>
-                    <li><a href="#virgo"><div><b><span class="gem">♍</span> Дева</b></div></a></li>
-                    <li><a href="#libra"><div><b><span class="gem">♎</span> Везни</b></div></a></li>
-                    <li><a href="#scorpio"><div><b><span class="gem">♏</span> Скорпион</b></div></a></li>
-                    <li><a href="#archer"><div><b><span class="gem">♐</span> Стрелец</b></div></a></li>
-                    <li><a href="#capricorn"><div><b><span class="gem">♑</span> Козирог</b></div></a></li>
-                    <li><a href="#waterman"><div><b><span class="gem">♒</span> Водолей</b></div></a></li>
-                    <li><a href="#fish"><div><b><span class="gem">♓</span> Риби</b></div></a></li>
+                    <li><a href="#aries"><div><span class="gem">♈</span> Овен</div></a></li>
+                    <li><a href="#taurus"><div><span class="gem">♉</span> Телец</div></a></li>
+                    <li><a href="#gemini"><div><span class="gem">♊ </span> Близнаци</div></a></li>
+                    <li><a href="#cancer"><div><span class="gem">♋</span> Рак</div></a></li>
+                    <li><a href="#leo"><div><span class="gem">♌</span> Лъв</div></a></li>
+                    <li><a href="#virgo"><div><span class="gem">♍</span> Дева</div></a></li>
+                    <li><a href="#libra"><div><span class="gem">♎</span> Везни</div></a></li>
+                    <li><a href="#scorpio"><div><span class="gem">♏</span> Скорпион</div></a></li>
+                    <li><a href="#archer"><div><span class="gem">♐</span> Стрелец</div></a></li>
+                    <li><a href="#capricorn"><div><span class="gem">♑</span> Козирог</div></a></li>
+                    <li><a href="#waterman"><div><span class="gem">♒</span> Водолей</div></a></li>
+                    <li><a href="#fish"><div><span class="gem">♓</span> Риби</div></a></li>
                 </ul>
             </section>
 
