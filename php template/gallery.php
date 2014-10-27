@@ -8,7 +8,8 @@
     <link type="text/css" href="styles/styles-gallery.css" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/global.js"></script>
-    <script type="text/javascript" src="js/freezeframe.js"></script>
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <script src="js/baguetteBox.min.js" async></script>
 </head>
 <body>
 <header class="header">
@@ -16,148 +17,54 @@
 </header>
 <main>
     <div id="main-wrapper">
-        <section>
-            <h1>Галерия</h1>
-            <hr>
-            <article>
-                <header><h2>Fixing a bug</h2></header>
-                <div><img class="freezeframe" src="resources/images/bugFixing.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Stages of every task in the exam</h2></header>
-                <div><img class="freezeframe" src="resources/images/stagesOfEveryTask.jpg"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>When you left your homework for the last day</h2></header>
-                <div><img class="freezeframe" src="resources/images/Deathline.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Endless loop</h2></header>
-                <div><img class="freezeframe" src="resources/images/endlessLoop.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>When something I expected to fail works</h2></header>
-                <div><img class="freezeframe" src="resources/images/whenSmthIexpectedToFailWorks.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>First day in SoftUni be like..</h2></header>
-                <div><img class="freezeframe" src="resources/images/firstDayInSoftUni.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Forgot the "break" in a loop</h2></header>
-                <div><img class="freezeframe" src="resources/images/forgotTheBreakInMyLoop.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Letting someone in my code:</h2></header>
-                <div><img class="freezeframe" src="resources/images/fuck.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Looking at my first projects as a programmer</h2></header>
-                <div><img class="freezeframe" src="resources/images/LookingAtOldProject.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Realizing the boss is not joking about what we should do</h2></header>
-                <div><img class="freezeframe" src="resources/images/realizingTheBossIsNotJokingAboutWhatToDo.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Security problems</h2></header>
-                <div><img class="freezeframe" src="resources/images/security.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Senior developer..</h2></header>
-                <div><img class="freezeframe" src="resources/images/seniorDeveloper.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Finding out what is snippet</h2></header>
-                <div><img class="freezeframe" src="resources/images/snippetsForFirstTime.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Reading the tasks at the exam</h2></header>
-                <div><img class="freezeframe" src="resources/images/readingExamProblems.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Nothing can scatter me while I study for the exam</h2></header>
-                <div><img class="freezeframe" src="resources/images/studyForExam.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Uncaught exeption</h2></header>
-                <div><img class="freezeframe" src="resources/images/uncaughtExeption.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Knowing that I have bug in my code</h2></header>
-                <div><img class="freezeframe" src="resources/images/unexpectetErrorFlag.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>First submit in judge at the exam always like..</h2></header>
-                <div><img class="freezeframe" src="resources/images/firstTryInJudge.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>After reading what am I supposed to do</h2></header>
-                <div><img class="freezeframe" src="resources/images/what.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>When bug becomes feature</h2></header>
-                <div><img class="freezeframe" src="resources/images/whenBugBecomesFeature.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>When colleague makes update on my code</h2></header>
-                <div><img class="freezeframe" src="resources/images/whenCollegeMakesUpdateOnMyCode.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>"Do you want Internet Explorer to be your default browser?"</h2></header>
-                <div><img class="freezeframe" src="resources/images/WhenIEasks.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>When I missclick the taskbar and Photoshop starts to load</h2></header>
-                <div><img class="freezeframe" src="resources/images/whenImisclickTheTaskbarAndPhotoshopStartsToLoad.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>When I compile my code for the first time</h2></header>
-                <div><img class="freezeframe" src="resources/images/whenMyCodeCompilesOnFirstTime.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>When SoftUni gives us a present</h2></header>
-                <div><img class="freezeframe" src="resources/images/WhenSoftUniGaveUsPresents.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Asking who will defend the project, everyone be like..</h2></header>
-                <div><img class="freezeframe" src="resources/images/whoWillDefTheProject.gif"></div>
-            </article>
-            <hr>
-            <article>
-                <header><h2>Software product</h2></header>
-                <div><img class="freezeframe" src="resources/images/softwareProduct.jpg"></div>
-            </article>
+        <section class="baguetteBoxOne">
+            <div class="galleryWrapper">
+                <table>
+                    <tr>
+                        <td><div><a src="resources/images/gallery/2typesOfPeople.png"><img src="resources/images/gallery/2typesOfPeople.png"></a></div></td>
+                        <td><div><a src="resources/images/gallery/7-being-a-programmer-joke.jpg"><img src="resources/images/gallery/7-being-a-programmer-joke.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/10-awesome-programming-jokes.jpg"><img src="resources/images/gallery/10-awesome-programming-jokes.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/automation.png"><img src="resources/images/gallery/automation.png"></a></div></td>
+                    </tr>
+                    <tr>
+                        <td><div><a src="resources/images/gallery/chuck-norris-demotivational.jpg"><img src="resources/images/gallery/chuck-norris-demotivational.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/codeStyleEvolution.jpg"><img src="resources/images/gallery/codeStyleEvolution.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/compiling2.png"><img src="resources/images/gallery/compiling2.png"></a></div></td>
+                        <td><div><a src="resources/images/gallery/evolution.jpg"><img src="resources/images/gallery/evolution.jpg"></a></div></td>
+                    </tr>
+                    <tr>
+                        <td><div><a src="resources/images/gallery/free_lancer.jpg"><img src="resources/images/gallery/free_lancer.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/gradeC++.jpg"><img src="resources/images/gallery/gradeC++.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/homeSweetHome.jpg"><img src="resources/images/gallery/homeSweetHome.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/lol_programming.jpg"><img src="resources/images/gallery/lol_programming.jpg"></a></div></td>
+                    </tr>
+                    <tr>
+                        <td><div><a src="resources/images/gallery/MAoO4uT.jpg"><img src="resources/images/gallery/MAoO4uT.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/notSure.jpg"><img src="resources/images/gallery/notSure.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/programmer%20jokes.jpg"><img src="resources/images/gallery/programmer%20jokes.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/programmers-be-like.jpg"><img src="resources/images/gallery/programmers-be-like.jpg"></a></div></td>
+                    </tr>
+                    <tr>
+                        <td><div><a src="resources/images/gallery/random_number.png"><img src="resources/images/gallery/random_number.png"></a></div></td>
+                        <td><div><a src="resources/images/gallery/softwareProduct.jpg"><img src="resources/images/gallery/softwareProduct.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/stagesOfEveryTask.jpg"><img src="resources/images/gallery/stagesOfEveryTask.jpg"></a></div></td>
+                        <td><div><a src="resources/images/gallery/tan_lines_of_a_programmer2.jpg"><img src="resources/images/gallery/tan_lines_of_a_programmer2.jpg"></a></div></td>
+                    </tr>
+                    <tr>
+                        <td><div><a src="resources/images/gallery/WaterFallApproachInTheoryVSInPractice.jpg"><img src="resources/images/gallery/WaterFallApproachInTheoryVSInPractice.jpg"></a></div></td>
+                    </tr>
+                </table>
+            </div>
         </section>
     </div>
 </main>
 <footer>
     <?php include 'templates/footer.php'; ?>
 </footer>
+<script>
+    window.onload = function() {
+        baguetteBox.run('.baguetteBoxOne');
+    };
+</script>
 </body>
 </html>

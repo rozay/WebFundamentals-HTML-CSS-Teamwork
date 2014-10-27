@@ -1,26 +1,15 @@
-article {
-    overflow: auto;
+.galleryWrapper {
+    width: 900px;
+    align-self: center;
 }
-main header {
-    background: #eeeeee;
+table td div {
+    width: 220px;
+    height: 220px;
 }
-h2 {
-    display: block;
-    font-size: 1.17em;
-    font-weight: bold;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-}
-section {
-    width: 100%;
-    float: right;
-}
-section h1 {
-    font-size: 2em;
-}
-article div figure {
-    margin-top: 0;
-    margin-left: 0;
+table td div img {
+    max-width: 99%;
+    max-height: 99%;
+    display: table-cell;
+    margin: auto;
+    vertical-align: middle;
 }
