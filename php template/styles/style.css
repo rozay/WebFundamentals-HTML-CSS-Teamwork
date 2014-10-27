@@ -222,6 +222,14 @@ footer li a:hover {
     transition: color .2s ease-in-out;
 }
 
+.hr-footer {
+    display: none;
+    width: 90%;
+    border: none;
+    background: #808080;
+    height: 0.5px;
+}
+
 #copyright {
     margin: 2% 0 1%;
 }
@@ -290,7 +298,7 @@ footer li a:hover {
         width: 100%;
     }
 
-    section#guide, #astro, main #astro h1, main .laugh h1, .quot, .asterix, .nakov, #youtube, .ema, #footer-links {
+    section#guide, #astro, main #astro h1, main .laugh h2, .quot, .asterix, .nakov, #youtube, .ema, #footer-links {
         width: 100% !important;
     }
 
@@ -332,7 +340,31 @@ footer li a:hover {
         width: 50%;
     }
 
+    #footer-col-1, #footer-col-2, #footer-col-3 {
+        display: block;
+        padding: 0;
+        font-size: 1.3em;
+        width: 100%;
+        text-align: center;
+    }
+    #footer-links li {
+        line-height: 2.6em;
+    }
+
+    #footer-links ul {
+        border-bottom: 0.5px solid #808080;
+    }
+
     #up-to-top:hover {
         opacity: 0.6;
+    }
+
+    #footer-col-3 li, #footer-col-3 div{
+        height: inherit;
+        display: inline;
+    }
+
+    #footer-links img {
+        vertical-align: middle;
     }
 }
