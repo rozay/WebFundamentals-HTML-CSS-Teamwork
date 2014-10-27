@@ -27,8 +27,6 @@ main h2 {
     text-align: center;
     list-style: none;
     border: 2px solid gray;
-    /*padding-left: 5%;*/
-    /*font-weight: bold;*/
 }
 
 #nav-astro li {
@@ -43,8 +41,6 @@ aside#nav-astro a {
 #nav-astro a:hover {
     color: #9389d0;
 }
-
-
 
 #astro {
     width: 80%;
@@ -81,7 +77,6 @@ article>h3 {
     text-align: center;
     max-width: 100%;
     float: none;
-
 }
 
 .ema div {

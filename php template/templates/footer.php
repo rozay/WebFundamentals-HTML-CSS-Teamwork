@@ -6,7 +6,7 @@
 
             </ul>
         </div>
-        <hr class="hr-footer" />
+
         <div id="footer-col-2">
             <ul>
                 <li><a href="https://softuni.bg/" target="_blank">Софтуерен университет</a></li>
@@ -14,14 +14,14 @@
                 <li><a href="http://introprogramming.info/" target="_blank">C# книга</a></li>
             </ul>
         </div>
-        <hr class="hr-footer" />
+
         <div id="footer-col-3">
             <ul>
                 <li>
                     <div>
                         <a href="http://validator.w3.org/check?uri=referer" target="_blank">
                             <img style="border:0;width:88px;height:31px"
-                                 src="resources/html5-logo.png" alt="Valid HTML5!" />
+                                 src="resources/images/validation/html5-logo.png" alt="Valid HTML5!" />
                         </a>
                     </div>
                 </li>
@@ -30,18 +30,15 @@
                     <div>
                         <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
                             <img style="border:0;width:88px;height:31px"
-                                 src="resources/valid-css-blue.gif" alt="Valid CSS!" />
+                                 src="resources/images/validation/valid-css-blue.gif" alt="Valid CSS!" />
                         </a>
                     </div>
                 </li>
             </ul>
         </div>
-        <hr class="hr-footer" />
+
         <div id="copyright">Copyright © 2014 Deep Sky Blue. Всички права запазени.</div>
     </div>
-
-
-
 </div>
 
 <div id="up-to-top" title="Нагоре">

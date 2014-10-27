@@ -1,15 +1,21 @@
-.galleryWrapper {
-    width: 900px;
-    align-self: center;
+.gallery {
+    text-align: center;
 }
-table td div {
+
+.gallery div {
+    display: inline;
+}
+
+.gallery a {
     width: 220px;
     height: 220px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 4px 6px;
+    box-shadow: 0 0 4px -1px #000;
 }
-table td div img {
-    max-width: 99%;
-    max-height: 99%;
-    display: table-cell;
-    margin: auto;
-    vertical-align: middle;
+
+.gallery img {
+    height: 100%;
+    width: 100%;
 }
