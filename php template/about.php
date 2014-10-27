@@ -35,7 +35,7 @@
             <section>
 
                 <article id="nikola" class="personal">
-                    <img src="http://icons.iconarchive.com/icons/icons-land/vista-people/256/Person-Male-Light-icon.png" alt="icon"/>
+                    <img src="resources/Nikola.JPG" alt="icon"/>
                     <div class="text">
                         <h5>Никола Николов</h5>
                         <p>Днес Пловдивският университет „Паисий Хилендарски“ има 9 факултета, в които се обучават над 8000 редовни и около
