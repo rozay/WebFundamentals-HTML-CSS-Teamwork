@@ -1,7 +1,5 @@
 <div id="header-wrapper">
-    <div id="header-logo">
-<!--        <img src="resources/1.bmp" alt="background image"/>-->
-    </div>
+
     <div id="navigation-wrapper">
 
         <nav id="navigation-bg">

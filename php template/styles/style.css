@@ -1,6 +1,6 @@
 ﻿body, header, section, aside, article, img, div, svg, circle, line, span, a, iframe, h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
-    outline: none !important;
+    outline: none;
 }
 
 a:active, a:focus, svg, svg:active, svg:focus {
@@ -21,7 +21,7 @@ a:active, a:focus, svg, svg:active, svg:focus {
 
 body {
     /*background: #1D1D1D;*/
-    background-image: url(../resources/2.bmp);
+    background-image: url(../resources/2.jpg);
     width: 100%;
     margin: 0 auto;
     font-family: Helvetica;
@@ -69,7 +69,7 @@ header a {
     margin: 0 auto;
     overflow: auto;
     /*float: left;*/
-    background-image: url(../resources/1.bmp);
+    background-image: url(../resources/1.jpg);
     background-repeat: no-repeat;
 }
 
